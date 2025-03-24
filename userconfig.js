@@ -190,7 +190,7 @@ const default_config = {
       ],
     },
     {
-      name: "chill",
+      name: "chi ll",
       background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
