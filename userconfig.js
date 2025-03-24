@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Ulm",
     scale: "C",
   },
   clock: {
@@ -12,12 +12,12 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://chatgpt.com",
   openLastVisitedTab: true,
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
           name: "bookmarks",
@@ -190,86 +190,98 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-08.gif",
+      name: "chill",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
-          name: "social media",
+          name: "media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "tower",
+              url: "http://192.168.0.20/Main",
+              icon: "server",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "jellyseer",
+              url: "http://192.168.0.20:5055",
+              icon: "eye",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "radarr",
+              url: "http://192.168.0.20:7878",
+              icon: "radar",
               icon_color: palette.red,
+            },
+            {
+              name: "sonarr",
+              url: "http://192.168.0.20:8989",
+              icon: "radar-2",
+              icon_color: palette.blue,
+            },
+            {
+              name: "sabnzbs",
+              url: "http://192.168.0.20:8080",
+              icon: "arrow-down",
+              icon_color: palette.mauve,
             },
           ],
         },
         {
-          name: "gaming",
+          name: "entertainment",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "mangapark",
+              url: "https://mangapark.net/",
+              icon: "book",
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
+              name: "jellyfin",
+              url: "http://192.168.0.20:8096/web/",
+              icon: "movie",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
+              name: "twitch",
+              url: "https://www.twitch.tv/",
+              icon: "brand-twitch",
               icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "video",
+          name: "LOL",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "loldle",
+              url: "https://loldle.net/",
+              icon: "dice",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "TFT Academy",
+              url: "https://tftacademy.com/tierlist/comps",
+              icon: "crown",
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "mobalytics",
+              url: "https://mobalytics.gg/lol",
+              icon: "shield",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "Sologesang",
+              url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXGfKXwmtXV3JXkkvFW9kcvXtWdEpXq-5uohygcek-qM19CvuWTZYf5VwrgXqwMBVLhVomP0yp_jEZ/pubhtml",
+              icon: "table",
               icon_color: palette.blue,
             },
           ],
